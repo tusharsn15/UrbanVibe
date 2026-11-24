@@ -1,11 +1,15 @@
 # UrbanVibe - Entertainment & Experience Booking Management System
 
+> **Chitkara University — Continuous Evaluation 3: Project Milestone**  
+> **Course:** Programming in Java (`25CSE0202`) | **Notice Ref:** `CUIET/CSE/ACAD/2026/358`  
+> Complete rubric compliance details: [docs/continuous-evaluation-3.md](docs/continuous-evaluation-3.md)
+
 A console (CLI) Java application, inspired by BookMyShow and District, for booking **movies, concerts/events,
 restaurant tables and activities**. Built with Core Java, JDBC and MySQL. No GUI, no web, no frameworks.
 
-* 48 Java source files (32 core classes + 3 interfaces + 6 custom exceptions + 7 helpers), about 4,600 lines
-* OOP, Collections, Multithreading, Exception handling, File handling, JDBC transactions, one external API
-* Double booking is prevented by **row locks + a UNIQUE database constraint** - the database is the final authority
+* 48 Java source files (32 core classes + 3 interfaces + 6 custom exceptions + 7 helpers)
+* OOP, Collections, Multithreading, Exception handling, File handling, JDBC transactions
+* Concurrency protection via row locks + a UNIQUE database constraint (zero double-booking)
 
 ## 1. Requirements
 
