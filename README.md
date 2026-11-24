@@ -4,8 +4,8 @@
 > **Course:** Programming in Java (`25CSE0202`) | **Notice Ref:** `CUIET/CSE/ACAD/2026/358`  
 > Complete rubric compliance details: [docs/continuous-evaluation-3.md](docs/continuous-evaluation-3.md)
 
-A console (CLI) Java application, inspired by BookMyShow and District, for booking **movies, concerts/events,
-restaurant tables and activities**. Built with Core Java, JDBC and MySQL. No GUI, no web, no frameworks.
+A console (CLI) Java application tailored for **Chandigarh**, inspired by BookMyShow and District, for booking **movies, concerts/events,
+restaurant tables and activities** across Chandigarh's premier venues. Built with Core Java, JDBC and MySQL. No GUI, no web, no frameworks.
 
 * 48 Java source files (32 core classes + 3 interfaces + 6 custom exceptions + 7 helpers)
 * OOP, Collections, Multithreading, Exception handling, File handling, JDBC transactions

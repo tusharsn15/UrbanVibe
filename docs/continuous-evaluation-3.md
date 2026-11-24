@@ -30,7 +30,7 @@ In urban life, finding and booking entertainment experiences (movies, concerts, 
 Booking platforms face a critical **concurrency and race condition problem**: when multiple users attempt to reserve the exact same seat or remaining restaurant table at the exact same instant, naive systems suffer from double-booking or inconsistent database states. 
 
 ### Intended Users and Context
-* **City Customers:** Discover, search, and securely book entertainment with instant receipt generation, promotional discounts, and cancellation refund policies.
+* **Chandigarh Customers:** Discover, search, and securely book city-wide entertainment experiences across Chandigarh with instant receipt generation, promotional discounts, and cancellation refund policies.
 * **Administrators:** Manage venue capacity, schedule time slots, monitor live bookings, and generate business revenue reports.
 
 ---
@@ -39,12 +39,12 @@ Booking platforms face a critical **concurrency and race condition problem**: wh
 
 ### Measurable Objectives
 1. **Core Java Integration:** Demonstrate comprehensive mastery of Object-Oriented Programming (OOP), the Java Collections framework, custom checked exceptions, multithreading, and file I/O.
-2. **Unified Experience Model:** Support both **seat-based** inventory (movies, live events with visual seat maps) and **capacity-based** inventory (dining tables, sports activities).
+2. **Unified Experience Model:** Support both **seat-based** inventory (movies, live events with visual seat maps) and **capacity-based** inventory (dining tables, sports activities) across Chandigarh venues.
 3. **Guaranteed Data Integrity:** Eliminate double-booking by enforcing database-level transactions (`SELECT ... FOR UPDATE`) paired with a `UNIQUE(seat_id)` constraint.
 4. **Physical File Artifacts:** Generate readable text receipts (`receipts/`), CSV transaction exports (`exports/`), audit logs (`logs/`), and admin revenue summaries (`reports/`).
 
 ### Project Scope and Realistic Boundaries
-* **Included:** Full CLI terminal interface, complete MySQL schema with ACID transaction isolation, simulated payment gateway with validation and intentional decline branches, background notification and logging threads.
+* **Included:** Tailored exclusively for Chandigarh (covering iconic local venues such as Elante Mall, Tagore Theatre, Leisure Valley, Sector 17, Sector 26, Sector 35, and Sukhna Lake), full CLI terminal interface, complete MySQL schema with ACID transaction isolation, simulated payment gateway with validation and intentional decline branches, background notification and logging threads.
 * **Realistic Boundaries:** Developed as a console-based Core Java application to prioritize software design patterns, multithreaded concurrency, and database integrity over graphical UI frameworks.
 
 ---

@@ -145,9 +145,9 @@ public class CustomerMenu {
 
     private void search() throws DatabaseOperationException, InvalidInputException, SeatAlreadyBookedException,
             PaymentFailedException {
-        ConsoleView.header("SEARCH EXPERIENCES");
-        System.out.println("  1. By keyword (title, city, venue)");
-        System.out.println("  2. By category and city");
+        ConsoleView.header("SEARCH EXPERIENCES (CHANDIGARH)");
+        System.out.println("  1. By keyword (title, venue)");
+        System.out.println("  2. By category");
         System.out.println("  3. By price range");
         int option = InputHelper.readInt("Choose search type: ", 1, 3);
         List<Experience> results;
@@ -155,8 +155,7 @@ public class CustomerMenu {
             results = searchService.search(InputHelper.readRequired("Keyword: "));
         } else if (option == 2) {
             String category = InputHelper.readLine("Category (MOVIE/EVENT/RESTAURANT/ACTIVITY, Enter = any): ");
-            String city = InputHelper.readLine("City (Enter = any): ");
-            results = searchService.search(category, city);
+            results = searchService.search(category, "Chandigarh");
         } else {
             double min = InputHelper.readDouble("Minimum price: ");
             double max = InputHelper.readDouble("Maximum price: ");
@@ -355,6 +354,9 @@ public class CustomerMenu {
             String name = InputHelper.readRequired("New name [" + user.getName() + "]: ");
             String phone = InputHelper.readRequired("New phone [" + user.getPhone() + "]: ");
             String city = InputHelper.readLine("New city [" + user.getCity() + "]: ");
+            if (city.isEmpty()) {
+                city = "Chandigarh";
+            }
             authService.updateProfile(user, name, phone, city);
             System.out.println("  Profile updated.");
         }

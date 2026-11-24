@@ -109,7 +109,10 @@ public class AdminMenu {
         System.out.println("  1. Movie   2. Event   3. Restaurant   4. Activity");
         int type = InputHelper.readInt("Select category: ", 1, 4);
         String title = InputHelper.readRequired("Title: ");
-        String city = InputHelper.readRequired("City: ");
+        String city = InputHelper.readLine("City [Chandigarh]: ");
+        if (city.isEmpty()) {
+            city = "Chandigarh";
+        }
         String venue = InputHelper.readRequired("Venue: ");
         double price = InputHelper.readDouble("Base price (Rs.): ");
 

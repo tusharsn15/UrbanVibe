@@ -34,7 +34,7 @@ CREATE TABLE users (
     salt            VARCHAR(50)  NOT NULL,
     phone           VARCHAR(15)  NOT NULL,
     role            ENUM('CUSTOMER','ADMIN') NOT NULL DEFAULT 'CUSTOMER',
-    city            VARCHAR(50)  DEFAULT '',
+    city            VARCHAR(50)  NOT NULL DEFAULT 'Chandigarh',
     loyalty_points  INT          NOT NULL DEFAULT 0,
     employee_code   VARCHAR(20)  NULL,
     created_at      TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -190,21 +190,21 @@ CREATE TABLE payments (
 --  Slot dates are relative to CURDATE() so the demo is always in the future.
 -- =====================================================================
 
--- ----- Experiences: ids 1-4 movies, 5-8 events, 9-11 restaurants, 12-14 activities -----
+-- ----- Experiences: ids 1-4 movies, 5-8 events, 9-11 restaurants, 12-14 activities (Chandigarh) -----
 INSERT INTO experiences (experience_id, category, title, city, venue, base_price) VALUES
  (1,'MOVIE','Stellar Odyssey','Chandigarh','PVR Elante',250.00),
  (2,'MOVIE','Laugh Riot','Chandigarh','INOX Sector 17',200.00),
- (3,'MOVIE','The Last Monsoon','Ludhiana','Cinepolis Ludhiana',180.00),
- (4,'MOVIE','Dark Harbor','Delhi','PVR Select City',300.00),
+ (3,'MOVIE','The Last Monsoon','Chandigarh','Cinepolis Bestech Square',180.00),
+ (4,'MOVIE','Dark Harbor','Chandigarh','PVR Centra Mall',300.00),
  (5,'EVENT','Neon Nights Live','Chandigarh','Leisure Valley Grounds',800.00),
- (6,'EVENT','Stand-Up Saturday','Delhi','Akshara Theatre',500.00),
+ (6,'EVENT','Stand-Up Saturday','Chandigarh','The Laugh Club, Sector 26',500.00),
  (7,'EVENT','Raga Evening','Chandigarh','Tagore Theatre',400.00),
- (8,'EVENT','Rock the Ridge Festival','Delhi','Garden of Five Senses',1200.00),
+ (8,'EVENT','Rock the Ridge Festival','Chandigarh','Sukhna Lake Club Grounds',1200.00),
  (9,'RESTAURANT','Spice Route','Chandigarh','Sector 26 Market',350.00),
- (10,'RESTAURANT','Bella Napoli','Delhi','Connaught Place',600.00),
- (11,'RESTAURANT','Tokyo Table','Ludhiana','Model Town',700.00),
- (12,'ACTIVITY','Go-Karting Grand Prix','Chandigarh','Speed Arena',450.00),
- (13,'ACTIVITY','Escape Room: The Vault','Delhi','Mystery Rooms Hauz Khas',550.00),
+ (10,'RESTAURANT','Bella Napoli','Chandigarh','Sector 35 Inner Market',600.00),
+ (11,'RESTAURANT','Tokyo Table','Chandigarh','Elante Mall Courtyard',700.00),
+ (12,'ACTIVITY','Go-Karting Grand Prix','Chandigarh','Speed Arena, Sector 18',450.00),
+ (13,'ACTIVITY','Escape Room: The Vault','Chandigarh','Mystery Rooms, Sector 26',550.00),
  (14,'ACTIVITY','Sunrise Trekking Trail','Chandigarh','Morni Hills Base Camp',300.00);
 
 INSERT INTO movies (experience_id, language, genre, duration_mins, rating) VALUES

@@ -80,7 +80,10 @@ public class UserMenu {
         String email = InputHelper.readRequired("Email: ");
         String password = InputHelper.readRequired("Password (8+ chars, upper, lower, digit): ");
         String phone = InputHelper.readRequired("Phone (10 digits): ");
-        String city = InputHelper.readLine("City: ");
+        String city = InputHelper.readLine("City [Chandigarh]: ");
+        if (city.isEmpty()) {
+            city = "Chandigarh";
+        }
         Customer c = authService.register(name, email, password, phone, city);
         System.out.println("  Registration successful! Your customer ID is " + c.getUserId() + ". Please log in.");
     }

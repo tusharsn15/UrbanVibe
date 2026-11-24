@@ -13,17 +13,17 @@ Enter your choice:
 ==========================================
   [1] Stellar Odyssey (MOVIE) - PVR Elante, Chandigarh | from Rs. 250.00
   [2] Laugh Riot (MOVIE) - INOX Sector 17, Chandigarh | from Rs. 200.00
-  [3] The Last Monsoon (MOVIE) - Cinepolis Ludhiana, Ludhiana | from Rs. 180.00
-  [4] Dark Harbor (MOVIE) - PVR Select City, Delhi | from Rs. 300.00
+  [3] The Last Monsoon (MOVIE) - Cinepolis Bestech Square, Chandigarh | from Rs. 180.00
+  [4] Dark Harbor (MOVIE) - PVR Centra Mall, Chandigarh | from Rs. 300.00
   [5] Neon Nights Live (EVENT) - Leisure Valley Grounds, Chandigarh | from Rs. 800.00
-  [6] Stand-Up Saturday (EVENT) - Akshara Theatre, Delhi | from Rs. 500.00
+  [6] Stand-Up Saturday (EVENT) - The Laugh Club Sector 26, Chandigarh | from Rs. 500.00
   [7] Raga Evening (EVENT) - Tagore Theatre, Chandigarh | from Rs. 400.00
-  [8] Rock the Ridge Festival (EVENT) - Garden of Five Senses, Delhi | from Rs. 1200.00
+  [8] Rock the Ridge Festival (EVENT) - Sukhna Lake Club Grounds, Chandigarh | from Rs. 1200.00
   [9] Spice Route (RESTAURANT) - Sector 26 Market, Chandigarh | from Rs. 350.00
-  [10] Bella Napoli (RESTAURANT) - Connaught Place, Delhi | from Rs. 600.00
-  [11] Tokyo Table (RESTAURANT) - Model Town, Ludhiana | from Rs. 700.00
+  [10] Bella Napoli (RESTAURANT) - Sector 35 Inner Market, Chandigarh | from Rs. 600.00
+  [11] Tokyo Table (RESTAURANT) - Elante Mall Courtyard, Chandigarh | from Rs. 700.00
   [12] Go-Karting Grand Prix (ACTIVITY) - Speed Arena, Chandigarh | from Rs. 450.00
-  [13] Escape Room: The Vault (ACTIVITY) - Mystery Rooms Hauz Khas, Delhi | from Rs. 550.00
+  [13] Escape Room: The Vault (ACTIVITY) - Mystery Rooms Sector 26, Chandigarh | from Rs. 550.00
   [14] Sunrise Trekking Trail (ACTIVITY) - Morni Hills Base Camp, Chandigarh | from Rs. 300.00
   Log in as a customer to see time slots and to book.
 ==========================================
@@ -106,8 +106,8 @@ Enter your choice:
   1. Movie   2. Event   3. Restaurant   4. Activity
 Select category:   [1] Stellar Odyssey (MOVIE) - PVR Elante, Chandigarh | from Rs. 250.00
   [2] Laugh Riot (MOVIE) - INOX Sector 17, Chandigarh | from Rs. 200.00
-  [3] The Last Monsoon (MOVIE) - Cinepolis Ludhiana, Ludhiana | from Rs. 180.00
-  [4] Dark Harbor (MOVIE) - PVR Select City, Delhi | from Rs. 300.00
+  [3] The Last Monsoon (MOVIE) - Cinepolis Bestech Square, Chandigarh | from Rs. 180.00
+  [4] Dark Harbor (MOVIE) - PVR Centra Mall, Chandigarh | from Rs. 300.00
 Enter experience ID to book (0 = back): 
 ==========================================
   BOOKING: Stellar Odyssey
@@ -162,8 +162,8 @@ Enter your choice:
   1. Movie   2. Event   3. Restaurant   4. Activity
 Select category:   [1] Stellar Odyssey (MOVIE) - PVR Elante, Chandigarh | from Rs. 250.00
   [2] Laugh Riot (MOVIE) - INOX Sector 17, Chandigarh | from Rs. 200.00
-  [3] The Last Monsoon (MOVIE) - Cinepolis Ludhiana, Ludhiana | from Rs. 180.00
-  [4] Dark Harbor (MOVIE) - PVR Select City, Delhi | from Rs. 300.00
+  [3] The Last Monsoon (MOVIE) - Cinepolis Bestech Square, Chandigarh | from Rs. 180.00
+  [4] Dark Harbor (MOVIE) - PVR Centra Mall, Chandigarh | from Rs. 300.00
 Enter experience ID to book (0 = back): 
 ==========================================
   BOOKING: Stellar Odyssey
@@ -193,8 +193,8 @@ Enter your choice:
 ==========================================
   1. Movie   2. Event   3. Restaurant   4. Activity
 Select category:   [9] Spice Route (RESTAURANT) - Sector 26 Market, Chandigarh | from Rs. 350.00
-  [10] Bella Napoli (RESTAURANT) - Connaught Place, Delhi | from Rs. 600.00
-  [11] Tokyo Table (RESTAURANT) - Model Town, Ludhiana | from Rs. 700.00
+  [10] Bella Napoli (RESTAURANT) - Sector 35 Inner Market, Chandigarh | from Rs. 600.00
+  [11] Tokyo Table (RESTAURANT) - Elante Mall Courtyard, Chandigarh | from Rs. 700.00
 Enter experience ID to book (0 = back): 
 ==========================================
   BOOKING: Spice Route
@@ -228,8 +228,8 @@ Enter your choice:
 ==========================================
   1. Movie   2. Event   3. Restaurant   4. Activity
 Select category:   [9] Spice Route (RESTAURANT) - Sector 26 Market, Chandigarh | from Rs. 350.00
-  [10] Bella Napoli (RESTAURANT) - Connaught Place, Delhi | from Rs. 600.00
-  [11] Tokyo Table (RESTAURANT) - Model Town, Ludhiana | from Rs. 700.00
+  [10] Bella Napoli (RESTAURANT) - Sector 35 Inner Market, Chandigarh | from Rs. 600.00
+  [11] Tokyo Table (RESTAURANT) - Elante Mall Courtyard, Chandigarh | from Rs. 700.00
 Enter experience ID to book (0 = back): 
 ==========================================
   BOOKING: Spice Route
