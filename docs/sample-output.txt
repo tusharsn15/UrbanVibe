@@ -1,0 +1,304 @@
+==========================================
+               URBANVIBE
+     Entertainment & Experience Booking
+==========================================
+1. Register
+2. Customer Login
+3. Admin Login
+4. Browse Experiences
+5. Exit
+Enter your choice: 
+==========================================
+  BROWSE EXPERIENCES (guest)
+==========================================
+  [1] Stellar Odyssey (MOVIE) - PVR Elante, Chandigarh | from Rs. 250.00
+  [2] Laugh Riot (MOVIE) - INOX Sector 17, Chandigarh | from Rs. 200.00
+  [3] The Last Monsoon (MOVIE) - Cinepolis Ludhiana, Ludhiana | from Rs. 180.00
+  [4] Dark Harbor (MOVIE) - PVR Select City, Delhi | from Rs. 300.00
+  [5] Neon Nights Live (EVENT) - Leisure Valley Grounds, Chandigarh | from Rs. 800.00
+  [6] Stand-Up Saturday (EVENT) - Akshara Theatre, Delhi | from Rs. 500.00
+  [7] Raga Evening (EVENT) - Tagore Theatre, Chandigarh | from Rs. 400.00
+  [8] Rock the Ridge Festival (EVENT) - Garden of Five Senses, Delhi | from Rs. 1200.00
+  [9] Spice Route (RESTAURANT) - Sector 26 Market, Chandigarh | from Rs. 350.00
+  [10] Bella Napoli (RESTAURANT) - Connaught Place, Delhi | from Rs. 600.00
+  [11] Tokyo Table (RESTAURANT) - Model Town, Ludhiana | from Rs. 700.00
+  [12] Go-Karting Grand Prix (ACTIVITY) - Speed Arena, Chandigarh | from Rs. 450.00
+  [13] Escape Room: The Vault (ACTIVITY) - Mystery Rooms Hauz Khas, Delhi | from Rs. 550.00
+  [14] Sunrise Trekking Trail (ACTIVITY) - Morni Hills Base Camp, Chandigarh | from Rs. 300.00
+  Log in as a customer to see time slots and to book.
+==========================================
+               URBANVIBE
+     Entertainment & Experience Booking
+==========================================
+1. Register
+2. Customer Login
+3. Admin Login
+4. Browse Experiences
+5. Exit
+Enter your choice: 
+==========================================
+  REGISTER NEW CUSTOMER
+==========================================
+Full name: Email: Password (8+ chars, upper, lower, digit): Phone (10 digits): City:   Registration successful! Your customer ID is 6. Please log in.
+==========================================
+               URBANVIBE
+     Entertainment & Experience Booking
+==========================================
+1. Register
+2. Customer Login
+3. Admin Login
+4. Browse Experiences
+5. Exit
+Enter your choice: 
+==========================================
+  REGISTER NEW CUSTOMER
+==========================================
+Full name: Email: Password (8+ chars, upper, lower, digit): Phone (10 digits): City:   [!] This email is already registered. Please log in instead.
+==========================================
+               URBANVIBE
+     Entertainment & Experience Booking
+==========================================
+1. Register
+2. Customer Login
+3. Admin Login
+4. Browse Experiences
+5. Exit
+Enter your choice: 
+==========================================
+  REGISTER NEW CUSTOMER
+==========================================
+Full name: Email: Password (8+ chars, upper, lower, digit): Phone (10 digits): City:   [!] Password needs 8+ characters with an uppercase letter, a lowercase letter and a digit.
+==========================================
+               URBANVIBE
+     Entertainment & Experience Booking
+==========================================
+1. Register
+2. Customer Login
+3. Admin Login
+4. Browse Experiences
+5. Exit
+Enter your choice: 
+==========================================
+  CUSTOMER LOGIN
+==========================================
+Email: Password:   [!] Login failed: Invalid email or password.
+==========================================
+               URBANVIBE
+     Entertainment & Experience Booking
+==========================================
+1. Register
+2. Customer Login
+3. Admin Login
+4. Browse Experiences
+5. Exit
+Enter your choice: 
+==========================================
+  CUSTOMER LOGIN
+==========================================
+Email: Password:   Login successful. Welcome, Ravi Kumar!
+==========================================
+  CUSTOMER DASHBOARD - Welcome, Ravi Kumar
+==========================================
+Enter your choice: 
+==========================================
+  BOOK AN EXPERIENCE
+==========================================
+  1. Movie   2. Event   3. Restaurant   4. Activity
+Select category:   [1] Stellar Odyssey (MOVIE) - PVR Elante, Chandigarh | from Rs. 250.00
+  [2] Laugh Riot (MOVIE) - INOX Sector 17, Chandigarh | from Rs. 200.00
+  [3] The Last Monsoon (MOVIE) - Cinepolis Ludhiana, Ludhiana | from Rs. 180.00
+  [4] Dark Harbor (MOVIE) - PVR Select City, Delhi | from Rs. 300.00
+Enter experience ID to book (0 = back): 
+==========================================
+  BOOKING: Stellar Odyssey
+==========================================
+  SlotID   Date         Time     Availability
+  1        2026-11-18   14:00    40 / 40
+  5        2026-11-18   19:30    40 / 40
+  9        2026-11-19   14:00    40 / 40
+  13       2026-11-19   19:30    40 / 40
+  17       2026-11-20   14:00    40 / 40
+  21       2026-11-20   19:30    40 / 40
+Enter slot ID (0 = cancel): 
+                 ---------- S C R E E N ----------
+   A  [A1 ] [A2 ] [A3 ] [A4 ] [A5 ] [A6 ] [A7 ] [A8 ] 
+   B  [B1 ] [B2 ] [B3 ] [B4 ] [B5 ] [B6 ] [B7 ] [B8 ] 
+   C  [C1 ] [C2 ] [C3 ] [C4 ] [C5 ] [C6 ] [C7 ] [C8 ] 
+   D  [D1 ] [D2 ] [D3 ] [D4 ] [D5 ] [D6 ] [D7 ] [D8 ] 
+   E  [E1 ] [E2 ] [E3 ] [E4 ] [E5 ] [E6 ] [E7 ] [E8 ] 
+  [XX] = booked   Prices: VIP Rs. 450   PREMIUM Rs. 350   REGULAR Rs. 250   
+Enter seat(s), comma separated (e.g. A1,A2): Promo code (press Enter to skip): 
+==========================================
+  BOOKING SUMMARY
+==========================================
+  Experience : Stellar Odyssey (MOVIE)
+  Venue      : PVR Elante, Chandigarh
+  Date/Time  : 2026-11-20 14:00
+  Seats      : A1,A2
+  Quantity   : 2
+  Subtotal   : Rs. 900.00
+  Discount   : -Rs. 90.00 (WELCOME10)
+  TOTAL      : Rs. 810.00
+Confirm and pay? (y/n):   Payment method: 1. Card   2. UPI   3. Wallet
+Select payment method:   Processing payment...
+  [NOTIFICATION] Hi Ravi Kumar, your booking UV2026000001 for "Stellar Odyssey" is confirmed. Amount paid: Rs. 810.00
+==========================================
+  BOOKING CONFIRMED
+==========================================
+  Booking ID  : UV2026000001
+  Experience  : Stellar Odyssey
+  When        : 2026-11-20 14:00
+  Seats       : A1,A2
+  Quantity    : 2
+  Total paid  : Rs. 810.00
+  Receipt     : receipts/BOOKING_UV2026000001.txt
+==========================================
+  CUSTOMER DASHBOARD - Welcome, Ravi Kumar
+==========================================
+Enter your choice: 
+==========================================
+  BOOK AN EXPERIENCE
+==========================================
+  1. Movie   2. Event   3. Restaurant   4. Activity
+Select category:   [1] Stellar Odyssey (MOVIE) - PVR Elante, Chandigarh | from Rs. 250.00
+  [2] Laugh Riot (MOVIE) - INOX Sector 17, Chandigarh | from Rs. 200.00
+  [3] The Last Monsoon (MOVIE) - Cinepolis Ludhiana, Ludhiana | from Rs. 180.00
+  [4] Dark Harbor (MOVIE) - PVR Select City, Delhi | from Rs. 300.00
+Enter experience ID to book (0 = back): 
+==========================================
+  BOOKING: Stellar Odyssey
+==========================================
+  SlotID   Date         Time     Availability
+  1        2026-11-18   14:00    40 / 40
+  5        2026-11-18   19:30    40 / 40
+  9        2026-11-19   14:00    40 / 40
+  13       2026-11-19   19:30    40 / 40
+  17       2026-11-20   14:00    38 / 40
+  21       2026-11-20   19:30    40 / 40
+Enter slot ID (0 = cancel): 
+                 ---------- S C R E E N ----------
+   A  [XX ] [XX ] [A3 ] [A4 ] [A5 ] [A6 ] [A7 ] [A8 ] 
+   B  [B1 ] [B2 ] [B3 ] [B4 ] [B5 ] [B6 ] [B7 ] [B8 ] 
+   C  [C1 ] [C2 ] [C3 ] [C4 ] [C5 ] [C6 ] [C7 ] [C8 ] 
+   D  [D1 ] [D2 ] [D3 ] [D4 ] [D5 ] [D6 ] [D7 ] [D8 ] 
+   E  [E1 ] [E2 ] [E3 ] [E4 ] [E5 ] [E6 ] [E7 ] [E8 ] 
+  [XX] = booked   Prices: VIP Rs. 450   PREMIUM Rs. 350   REGULAR Rs. 250   
+Enter seat(s), comma separated (e.g. A1,A2): Promo code (press Enter to skip):   [!] Booking not completed: Seat A1 is already booked.
+==========================================
+  CUSTOMER DASHBOARD - Welcome, Ravi Kumar
+==========================================
+Enter your choice: 
+==========================================
+  BOOK AN EXPERIENCE
+==========================================
+  1. Movie   2. Event   3. Restaurant   4. Activity
+Select category:   [9] Spice Route (RESTAURANT) - Sector 26 Market, Chandigarh | from Rs. 350.00
+  [10] Bella Napoli (RESTAURANT) - Connaught Place, Delhi | from Rs. 600.00
+  [11] Tokyo Table (RESTAURANT) - Model Town, Ludhiana | from Rs. 700.00
+Enter experience ID to book (0 = back): 
+==========================================
+  BOOKING: Spice Route
+==========================================
+  SlotID   Date         Time     Availability
+  47       2026-11-18   13:00    30 / 30
+  50       2026-11-18   20:00    30 / 30
+  53       2026-11-19   13:00    30 / 30
+  56       2026-11-19   20:00    30 / 30
+  59       2026-11-20   13:00    30 / 30
+  62       2026-11-20   20:00    30 / 30
+Enter slot ID (0 = cancel): Number of guests / participants (1-10): Promo code (press Enter to skip): 
+==========================================
+  BOOKING SUMMARY
+==========================================
+  Experience : Spice Route (RESTAURANT)
+  Venue      : Sector 26 Market, Chandigarh
+  Date/Time  : 2026-11-20 13:00
+  Quantity   : 4
+  Subtotal   : Rs. 1400.00
+  TOTAL      : Rs. 1400.00
+Confirm and pay? (y/n):   Payment method: 1. Card   2. UPI   3. Wallet
+Select payment method: Card number (16 digits, simulated):   Processing payment...
+  [!] Payment failed: Card declined by the bank (simulated). You have not been charged.
+==========================================
+  CUSTOMER DASHBOARD - Welcome, Ravi Kumar
+==========================================
+Enter your choice: 
+==========================================
+  BOOK AN EXPERIENCE
+==========================================
+  1. Movie   2. Event   3. Restaurant   4. Activity
+Select category:   [9] Spice Route (RESTAURANT) - Sector 26 Market, Chandigarh | from Rs. 350.00
+  [10] Bella Napoli (RESTAURANT) - Connaught Place, Delhi | from Rs. 600.00
+  [11] Tokyo Table (RESTAURANT) - Model Town, Ludhiana | from Rs. 700.00
+Enter experience ID to book (0 = back): 
+==========================================
+  BOOKING: Spice Route
+==========================================
+  SlotID   Date         Time     Availability
+  47       2026-11-18   13:00    30 / 30
+  50       2026-11-18   20:00    30 / 30
+  53       2026-11-19   13:00    30 / 30
+  56       2026-11-19   20:00    30 / 30
+  59       2026-11-20   13:00    30 / 30
+  62       2026-11-20   20:00    30 / 30
+Enter slot ID (0 = cancel): Number of guests / participants (1-10): Promo code (press Enter to skip): 
+==========================================
+  BOOKING SUMMARY
+==========================================
+  Experience : Spice Route (RESTAURANT)
+  Venue      : Sector 26 Market, Chandigarh
+  Date/Time  : 2026-11-20 13:00
+  Quantity   : 4
+  Subtotal   : Rs. 1400.00
+  TOTAL      : Rs. 1400.00
+Confirm and pay? (y/n):   Payment method: 1. Card   2. UPI   3. Wallet
+Select payment method: UPI id (e.g. name@bank):   Processing payment...
+  [NOTIFICATION] Hi Ravi Kumar, your booking UV2026000002 for "Spice Route" is confirmed. Amount paid: Rs. 1400.00
+==========================================
+  BOOKING CONFIRMED
+==========================================
+  Booking ID  : UV2026000002
+  Experience  : Spice Route
+  When        : 2026-11-20 13:00
+  Quantity    : 4
+  Total paid  : Rs. 1400.00
+  Receipt     : receipts/BOOKING_UV2026000002.txt
+==========================================
+  CUSTOMER DASHBOARD - Welcome, Ravi Kumar
+==========================================
+Enter your choice: 
+==========================================
+  YOUR BOOKING HISTORY
+==========================================
+  ID   Reference    Experience               Date        Time   Qty  Total        Status
+  2    UV2026000002 Spice Route              2026-11-20  13:00  4    1400.00      CONFIRMED
+  1    UV2026000001 Stellar Odyssey          2026-11-20  14:00  2    810.00       CONFIRMED
+  Export this history to a CSV file? (y/n): 
+==========================================
+  CUSTOMER DASHBOARD - Welcome, Ravi Kumar
+==========================================
+Enter your choice: 
+==========================================
+  YOUR PROFILE
+==========================================
+  Customer ID    : 6
+  Name           : Ravi Kumar
+  Email          : ravi@example.com
+  Phone          : 9876543210
+  City           : Chandigarh
+  Loyalty points : 22
+  Edit profile? (y/n): 
+==========================================
+  CUSTOMER DASHBOARD - Welcome, Ravi Kumar
+==========================================
+Enter your choice:   You have been logged out. See you soon!
+==========================================
+               URBANVIBE
+     Entertainment & Experience Booking
+==========================================
+1. Register
+2. Customer Login
+3. Admin Login
+4. Browse Experiences
+5. Exit
+Enter your choice:   Thank you for using UrbanVibe. Goodbye!
