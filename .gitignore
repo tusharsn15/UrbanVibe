@@ -1,0 +1,22 @@
+# secrets and local settings
+config/config.properties
+
+# build output
+out/
+target/
+lib/*.jar
+
+# generated at run time
+receipts/*
+logs/*
+reports/*
+exports/*
+!receipts/.gitkeep
+!logs/.gitkeep
+!reports/.gitkeep
+!exports/.gitkeep
+
+# IDE
+.idea/
+*.iml
+.vscode/
